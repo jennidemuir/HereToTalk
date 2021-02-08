@@ -1,0 +1,46 @@
+.chat-box-area {
+  //   position: relative;
+  align-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+
+  background-color: #d033d6;
+  position: absolute;
+  bottom: 20px;
+  height: 70px;
+  left: 10px;
+  right: 10px;
+  overflow: hidden;
+}
+.chat-area {
+  height: 50px;
+  width: 80%;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 15px;
+  border: 1px solid;
+  //   padding: 10px;
+  box-shadow: 5px 10px #58255a;
+  background-color: #fffbbc;
+}
+
+.submit-button {
+  //   padding-left: 220px;
+  background-color: #03f590f8;
+  color: rgb(10, 73, 47);
+  font-weight: bold;
+}
+// .message-body {
+// }
+
+.message-body {
+  position: absolute;
+  top: 200px;
+  bottom: 200px;
+  left: 0px;
+  right: 0px;
+  overflow: auto;
+}
