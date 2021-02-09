@@ -37,6 +37,8 @@
 // }
 
 .message-body {
+  display: flex;
+  flex-direction: column-reverse;
   position: absolute;
   top: 200px;
   bottom: 200px;
